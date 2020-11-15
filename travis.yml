@@ -1,9 +1,8 @@
 language: java
 jdk:
   - openjdk11
-  The command "~/bin/install-jdk.sh --target "/home/travis/opnjdk11" --workspace "/home/travis/.cache/install-jdk" --feature "" --license """ failed and exited with 3 during .
 notifications:
   email:
     - taurus.vamsi@gmail.com
   on_success: always # default: change
-    on_failure: always # default: always
+  on_failure: always # default: always
