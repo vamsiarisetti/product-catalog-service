@@ -1,6 +1,8 @@
+#!/bin/sh
 language: java
 jdk:
   - openjdk11
+script: mvn clean install
 notifications:
   email:
     - taurus.vamsi@gmail.com
